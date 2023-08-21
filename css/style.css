@@ -698,7 +698,7 @@ h6 {
   }
   .header__phone {
     padding: 0px 0px 0px 30px;
-    background: url("/img/icon/phone.svg") left/20px 20px no-repeat;
+    background: url("./img/icon/phone.svg") left/20px 20px no-repeat;
   }
   .header__phone-nomber {
     font-size: 18px;
@@ -715,7 +715,7 @@ h6 {
     min-height: 44px;
   }
   .header__botton-text {
-    background: url("/img/icon/arrowbotton.svg") left/20px 20px no-repeat;
+    background: url("./img/icon/arrowbotton.svg") left/20px 20px no-repeat;
     padding: 0px 0px 0px 34px;
   }
   .logo__link {
@@ -738,7 +738,7 @@ h6 {
     color: #331A2F;
   }
   .menu-header__arrow {
-    background: url("/img/icon/arrowmenu.svg") right no-repeat;
+    background: url("./img/icon/arrowmenu.svg") right no-repeat;
     padding: 0px 25px 0px 0px;
   }
   /* breadcrumbs--------------------------------*/

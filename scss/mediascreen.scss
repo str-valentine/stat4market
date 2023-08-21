@@ -66,7 +66,7 @@
 
 		&__phone {
 			padding: 0px 0px 0px 30px;
-			background: url('/img/icon/phone.svg') left/20px 20px no-repeat;
+			background: url('./img/icon/phone.svg') left/20px 20px no-repeat;
 		}
 
 		&__phone-nomber {
@@ -87,7 +87,7 @@
 		}
 
 		&__botton-text {
-			background: url('/img/icon/arrowbotton.svg') left/20px 20px no-repeat;
+			background: url('./img/icon/arrowbotton.svg') left/20px 20px no-repeat;
 			padding: 0px 0px 0px 34px;
 		}
 	}
@@ -121,7 +121,7 @@
 		}
 
 		&__arrow {
-			background: url('/img/icon/arrowmenu.svg') right no-repeat;
+			background: url('./img/icon/arrowmenu.svg') right no-repeat;
 			padding: 0px 25px 0px 0px;
 		}
 	}
