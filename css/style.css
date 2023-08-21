@@ -245,7 +245,7 @@ h6 {
 }
 .header__botton-text {
   display: inline-block;
-  background: url("./img/icon/arrowbotton.svg") left no-repeat;
+  background: url("../img/icon/arrowbotton.svg") left no-repeat;
   padding: 0px 0px 0px 37px;
 }
 
@@ -343,6 +343,7 @@ h6 {
 .block-text :not(:last-child) {
   margin-bottom: 15px;
 }
+
 /* Готовый блок item-column------------------------------------*/
 .item-column {
   display: -webkit-box;
@@ -395,6 +396,7 @@ h6 {
 .page__history {
   margin-bottom: 140px;
 }
+
 /* breadcrumbs------------------------------------*/
 .breadcrumbs__list {
   display: -webkit-box;
@@ -524,6 +526,7 @@ h6 {
 .history__content {
   padding: 0px 130px 0px 114px;
 }
+
 .row-history {
   display: -webkit-box;
   display: -ms-flexbox;

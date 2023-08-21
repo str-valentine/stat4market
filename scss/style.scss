@@ -108,8 +108,6 @@
 	:not(:last-child) {
 		margin-bottom: 15px;
 	}
-
-	&__p {}
 }
 
 /* Готовый блок item-column------------------------------------*/
@@ -167,9 +165,6 @@
 	&__history {
 		margin-bottom: 140px;
 	}
-
-	&__training {}
-
 }
 
 
@@ -213,8 +208,6 @@
 
 
 .courses {
-
-	&__container {}
 
 	&__body {
 		display: flex;
@@ -268,8 +261,6 @@
 		color: rgba(51, 26, 47, 0.8);
 	}
 
-	&__block-text {}
-
 	&__image {
 		position: relative;
 		width: 620px;
@@ -299,10 +290,6 @@
 
 .history {
 
-	&__container {}
-
-	&__body {}
-
 	&__title {
 		display: flex;
 		justify-content: center;
@@ -322,7 +309,6 @@
 		padding: 0px 130px 0px 114px;
 	}
 
-	&__row {}
 }
 
 
@@ -334,8 +320,6 @@
 		display: flex;
 		align-items: center;
 		gap: 80px;
-
-		&_column {}
 	}
 
 	&__image {
@@ -372,8 +356,6 @@
 /* training-----------------------------------*/
 
 .training {
-
-	&__container {}
 
 	&__top {
 		display: flex;
@@ -419,8 +401,6 @@
 		font-size: 25px;
 		line-height: 160%;
 	}
-
-	&__botton {}
 
 	&__body {
 		display: flex;
