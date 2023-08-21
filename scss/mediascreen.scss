@@ -1,0 +1,664 @@
+@media (max-width: 1280px) {
+	._container {
+		max-width: 1200px;
+	}
+
+	/* ГОТОВЫЕ БЛОКИ ------------------------------------*/
+	.title {
+		font-size: 46px;
+		line-height: 141%;
+	}
+
+	.block-text {
+		font-size: 18px;
+		line-height: 160%;
+	}
+
+	.h2 {
+		max-width: 645px;
+		font-size: 40px;
+		line-height: 1.6;
+	}
+
+	.item-column {
+		&__icon {
+			width: 61px;
+			height: 60px;
+			margin-bottom: 20px;
+
+			img {
+				max-width: 100%;
+			}
+		}
+
+		&__text-body {
+			:not(:last-child) {
+				margin-bottom: 10px;
+			}
+		}
+
+		&__advantage {
+			font-size: 18px;
+		}
+
+		&__advantage-desc {
+			font-size: 18px;
+		}
+	}
+
+	/* HEADER------------------------------------*/
+
+	.header {
+
+		&__body {
+			min-height: 102px;
+			padding: 30px 0px;
+			gap: 30px;
+		}
+
+		&__item1 {
+			flex: 0 1 646px;
+		}
+
+		&__menu {
+			flex: 0 1 239px;
+		}
+
+		&__phone {
+			padding: 0px 0px 0px 30px;
+			background: url('/img/icon/phone.svg') left/20px 20px no-repeat;
+		}
+
+		&__phone-nomber {
+			font-size: 18px;
+			line-height: 196%;
+		}
+
+		&__item2 {
+			flex: 0 1 418px;
+		}
+
+		// &__botton {}
+
+		&__botton-enter {
+			font-size: 18px;
+			line-height: 196%;
+			min-height: 44px;
+		}
+
+		&__botton-text {
+			background: url('/img/icon/arrowbotton.svg') left/20px 20px no-repeat;
+			padding: 0px 0px 0px 34px;
+		}
+	}
+
+
+	.logo {
+		&__link {
+			width: 187px;
+			height: 44px;
+		}
+
+		&__separator {
+			min-height: 62px;
+			margin: 0px 18px 0px 15px;
+		}
+
+		&__desc-text {
+			width: 158px;
+			font-size: 10px;
+			line-height: 140%;
+			padding: 10px 8px 10px 0px
+		}
+	}
+
+	.menu-header {
+
+		&__link {
+			font-size: 18px;
+			line-height: 196%;
+			color: #331A2F;
+		}
+
+		&__arrow {
+			background: url('/img/icon/arrowmenu.svg') right no-repeat;
+			padding: 0px 25px 0px 0px;
+		}
+	}
+
+	/* breadcrumbs--------------------------------*/
+
+	.page {
+		&__breadcrumbs {
+			margin: 37px 0px 0px 0px;
+		}
+
+		&__courses {
+			margin-bottom: 77px;
+		}
+
+		&__history {
+			margin-bottom: 120px;
+		}
+
+	}
+
+	/*courses--------------------------------*/
+	.courses {
+
+		&__content {
+			max-width: 711px;
+
+			>*:not(:last-child) {
+				margin: 0px 0px 40px 0px;
+			}
+		}
+
+		&__image {
+			position: relative;
+			width: 435px;
+			height: 435px;
+		}
+
+		&__image-superman {
+			width: 435px;
+			height: 435px;
+			top: 0px;
+			left: 0px
+		}
+
+		&__image-bg-stars {
+			display: none;
+		}
+	}
+
+	/* history------------------------------------*/
+	.history {
+
+		&__title {
+			margin-bottom: 85px;
+		}
+
+
+		&__content {
+			padding: 0px 103px;
+		}
+
+	}
+
+
+	.row-history {
+
+		&__image {
+			width: 352px;
+			height: 362px;
+		}
+
+		&__text {
+			font-size: 18px;
+			flex: 1 1 56.58%;
+		}
+	}
+
+	/* Training------------------------------------*/
+
+	.training {
+
+		&__top-content {
+			max-width: 717px;
+		}
+
+		&__top-description {
+			font-size: 18px;
+		}
+
+		&__body {
+			margin: 0px -45px;
+		}
+
+		&__item {
+			padding: 0px 45px;
+		}
+	}
+}
+
+/* 1024px------------------------------------*/
+
+@media (max-width: 1024px) {
+	._container {
+		max-width: none;
+	}
+
+	/* Готовые блоки ------------------------------------*/
+	.item-column {
+		flex: 1 1 50%;
+
+		&__icon {
+			width: 60px;
+			height: 60px;
+		}
+
+	}
+
+	/* header ------------------------------------*/
+
+	.header {
+
+		&__phone {
+			display: none;
+		}
+
+		&__menu {
+			display: none;
+		}
+
+		&__item1 {
+			flex: 0 1 auto;
+		}
+
+		&__item2 {
+			flex: 0 1 279px;
+		}
+
+		&__botton {
+			flex: 0 1 279px;
+			justify-content: space-between;
+		}
+	}
+
+	.menu-icon {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		width: 42px;
+		min-height: 28px;
+		justify-content: space-between;
+		align-items: flex-end;
+
+		&__line {
+			height: 4px;
+			width: 42px;
+			background: #CF51CE;
+			border-radius: 4px;
+			display: block;
+		}
+	}
+
+	.menu-icon::before {
+		content: '';
+		width: 42px;
+		height: 4px;
+		background: #CF51CE;
+		border-radius: 4px;
+	}
+
+	.menu-icon::after {
+		content: '';
+		width: 32px;
+		height: 4px;
+		background: #CF51CE;
+		border-radius: 4px;
+	}
+
+	/* page--------------------------------*/
+
+	.page {
+		&__breadcrumbs {
+			margin: 11px 0px 0px 0px;
+		}
+
+		&__courses {
+			margin-bottom: 65px;
+		}
+
+		&_history {
+			margin-bottom: 120px;
+		}
+	}
+
+	/*courses--------------------------------*/
+	.courses {
+
+		&__content {
+			max-width: 711px;
+
+			>*:not(:last-child) {
+				margin: 0px 0px 40px 0px;
+			}
+		}
+
+		&__block-text {
+			max-width: 62.76vw;
+		}
+
+		&__image {
+			position: relative;
+			width: 0px;
+			height: 0px;
+		}
+
+		&__image-superman {
+			width: 410px;
+			height: 410px;
+			top: 150px;
+			left: -226px;
+		}
+	}
+
+	/* history------------------------------------*/
+	.history {
+
+		&__title {
+			margin-bottom: 80px;
+		}
+
+		&__content {
+			padding: 0px;
+		}
+	}
+
+	.row-history {
+
+		&__item {
+			align-items: flex-start;
+		}
+
+
+
+		&__image {
+			flex: 0 0 auto;
+		}
+
+		&__text {
+			font-size: 18px;
+			flex: 1 1 auto;
+		}
+
+		&__item:not(:last-child) {
+			margin-bottom: 60px;
+		}
+	}
+
+	/* Training------------------------------------*/
+	.training {
+		&__top {
+			margin-bottom: 73px;
+		}
+
+		&__body {
+			margin: 0px -30px -60px;
+			padding: 0px 84px;
+
+		}
+
+		&__item {
+			padding: 0px 30px 60px;
+		}
+	}
+}
+
+
+
+/* 768------------------------------------*/
+
+@media (max-width: 768px) {
+
+	/* Готовые блоки ------------------------------------*/
+	.title {
+		font-size: 46px;
+		line-height: 141%;
+	}
+
+	.block-text {
+		line-height: 160%;
+	}
+
+	/* ------------------------------------*/
+
+
+	.header {
+		&__body {
+			padding: 35px 0px;
+		}
+
+		&__botton-enter {
+			font-size: 18px;
+			line-height: 176%;
+		}
+	}
+
+	.logo {
+		&__link {
+			width: 179px;
+			height: 40px;
+		}
+
+		&__separator {
+			min-height: 62px;
+			margin: 0px 19px 0px 15px;
+		}
+	}
+
+	/*courses--------------------------------*/
+
+	.courses {
+
+		&__content {
+			max-width: 711px;
+
+			>*:not(:last-child) {
+				margin: 0px 0px 18px 0px;
+			}
+		}
+	}
+
+	/*history--------------------------------*/
+
+	.row-history {
+		&__item {
+			gap: 30px;
+		}
+
+		&__image {
+			flex: 0 0 37.6%;
+			width: 270px;
+			height: 278px;
+		}
+
+	}
+}
+
+/* ------------------------------------*/
+@media (max-width: 640px) {
+
+	/* Готовые блоки ------------------------------------*/
+
+	.title {
+		font-size: 26px;
+		line-height: 150%;
+	}
+
+	.block-text {
+		font-size: 18px;
+
+		:not(:last-child) {
+			margin-bottom: 10px;
+		}
+	}
+
+	.h2 {
+		max-width: 100%;
+		font-size: 24px;
+		line-height: 1.5;
+	}
+
+	.item-column {
+		align-items: center;
+		flex: 1 1 100%;
+
+		&__text-body {
+			text-align: center;
+		}
+
+		&__advantage {
+			font-size: 18px;
+		}
+	}
+
+	/*page ------------------------------------*/
+	.page {
+		&__history {
+			margin-bottom: 100px;
+		}
+	}
+
+	/*header ------------------------------------*/
+
+	.header {
+		&__body {
+			padding: 30px 0px;
+		}
+
+		&__item2 {
+			flex: 0 1 167px;
+		}
+
+		&__botton {
+			flex: 0 1 167px;
+		}
+
+		&__botton-enter {
+			font-size: 18px;
+			line-height: 197%;
+			padding: 4px 20px;
+			border-radius: 6px;
+			min-height: 36px;
+		}
+
+		&__botton-text {
+			background: url('/img/icon/arrowbotton.svg') left/13px 13px no-repeat;
+			padding: 0px 0px 0px 21px;
+		}
+
+	}
+
+	.logo {
+		&__link {
+			width: 140px;
+			height: 32px;
+		}
+
+		&__separator {
+			display: none;
+		}
+
+		&__desc-text {
+			display: none;
+		}
+	}
+
+	/*courses--------------------------------*/
+	.courses {
+
+		&__body {
+			margin-top: 45px;
+		}
+
+		&__title {
+			max-width: 62.21vw;
+		}
+
+		&__image-superman {
+			width: 245px;
+			height: 245px;
+			top: -64px;
+			left: -117px;
+		}
+
+		&__block-text {
+			max-width: none;
+		}
+	}
+
+	/*history--------------------------------*/
+	.history {
+
+		&__title {
+			margin-bottom: 50px;
+		}
+
+		&__content {
+			padding: 0px;
+		}
+	}
+
+	.row-history {
+
+		&__item {
+			flex-direction: column;
+			align-items: center;
+
+			&_column {
+				flex-direction: column-reverse;
+			}
+		}
+
+		&__image {
+			min-height: 278px;
+		}
+
+		&__text {
+			font-size: 18px;
+		}
+	}
+
+	/* Training------------------------------------*/
+	.training {
+		&__top {
+			margin-bottom: 50px;
+		}
+
+		&__h2-decoration:before {
+			height: 4px;
+		}
+
+		&__top-description {
+			font-size: 18px;
+		}
+
+		&__body {
+			padding: 0px 30px;
+		}
+	}
+
+
+	/* ------------------------------------*/
+
+
+	@media (max-width: 360px) {
+		.header {
+			&__body {
+				gap: 0px;
+			}
+
+			&__botton-text {
+				padding: 0px 0px 0px 21px;
+			}
+		}
+
+		/* breadcrumbs--------------------------------*/
+
+		.page {
+			&__breadcrumbs {
+				margin: 11px 0px 0px 0px;
+			}
+		}
+
+		/*history--------------------------------*/
+		.row-history {
+			:not(:last-child) {
+				margin-bottom: 45px;
+			}
+		}
+	}
+}

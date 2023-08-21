@@ -1,0 +1,440 @@
+// @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap'); // font-family: 'Lato', sans-serif;
+
+@font-face {
+	font-family: 'Lato';
+	src: url('/fonts/lato-regular.woff2') format('woff2'),
+		url('/fonts/lato-regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('/fonts/lato-medium.woff2') format('woff2'),
+		url('/fonts/lato-medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('/fonts/lato-semibold.woff2') format('woff2'),
+		url('/fonts/lato-semibold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('/fonts/lato-bold.woff2') format('woff2'),
+		url('/fonts/lato-bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@import "null";
+
+
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	width: 100%;
+	// display: flex;
+	// flex-direction: column;
+}
+
+/* Теги для быстрой вставки------------------------------------*/
+._container {
+	max-width: 1530px;
+	margin: 0px auto;
+	box-sizing: content-box;
+	padding: 0px 15px;
+}
+
+._ibg {
+	position: relative;
+}
+
+._ibg img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+
+/* ИМПОРТ СТИЛЕЙ HEADER------------------------------------*/
+
+@import "header";
+
+
+
+/* Готовый заголовки------------------------------------*/
+
+.title {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 143%;
+	color: #331A2F;
+
+	&__decoration {
+		color: #CF51CE;
+	}
+}
+
+.h2 {
+	color: #331A2F;
+	text-align: center;
+	font-size: 48px;
+	line-height: 133%;
+	font-weight: 700;
+
+}
+
+
+/* Готовый блок block-text------------------------------------*/
+
+.block-text {
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 160%;
+
+	:not(:last-child) {
+		margin-bottom: 15px;
+	}
+
+	&__p {}
+}
+
+/* Готовый блок item-column------------------------------------*/
+
+.item-column {
+	display: flex;
+	flex-direction: column;
+	flex: 0 1 25%;
+
+	&__icon {
+		width: 70px;
+		height: 70px;
+		border-radius: 15px;
+		background: #CF51CE;
+		box-shadow: 0px 4px 25px 0px rgba(234, 93, 187, 0.25);
+		padding: 11px;
+		margin-bottom: 30px;
+
+		img {
+			max-width: 100%;
+		}
+	}
+
+	&__text-body {
+		:not(:last-child) {
+			margin-bottom: 15px;
+		}
+	}
+
+	&__advantage {
+		color: #331A2F;
+		font-size: 24px;
+		font-weight: 600;
+		line-height: 150%;
+	}
+
+	&__advantage-desc {
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 160%;
+	}
+}
+
+/* PAGE------------------------------------*/
+.page {
+	&__breadcrumbs {
+		margin: 34px 0px 0px 0px;
+	}
+
+	&__courses {
+		margin-top: 15px;
+		margin-bottom: 104px;
+	}
+
+	&__history {
+		margin-bottom: 140px;
+	}
+
+	&__training {}
+
+}
+
+
+
+/* breadcrumbs------------------------------------*/
+
+.breadcrumbs {
+
+	&__list {
+		display: flex;
+		align-items: center;
+
+		:not(:first-child)::before {
+			content: '';
+			width: 10px;
+			height: 1px;
+			background: rgba(51, 26, 47, 0.5);
+			position: absolute;
+			left: -18px;
+			top: 50%;
+		}
+
+		:not(:first-child) {
+			margin: 0px 0px 0px 26px;
+		}
+	}
+
+	&__item {
+		position: relative;
+	}
+
+	&__link {
+		display: flex;
+		font-size: 15px;
+		line-height: 119%;
+		color: rgba(51, 26, 47, 0.5);
+	}
+}
+
+/* courses------------------------------------*/
+
+
+.courses {
+
+	&__container {}
+
+	&__body {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__content {
+		max-width: 880px;
+	}
+
+	&__title {
+		margin: 0px 0px 22px 0px;
+	}
+
+	&__pricecost {
+		display: flex;
+		align-items: center;
+		margin: 0px 0px 16px 0px;
+
+		>*:not(:last-child) {
+			margin-right: 25px;
+		}
+	}
+
+	&__cost-image {
+		max-width: 48px;
+		max-height: 48px;
+	}
+
+	&__cost-image img {
+		width: 100%;
+	}
+
+	&__price {
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 145%;
+		text-transform: uppercase;
+	}
+
+	&__price-decoration {
+		font-size: 38px;
+		line-height: 145%;
+		color: #CF51CE;
+	}
+
+	&__price-ruble {
+		font-weight: 400;
+		font-size: 30px;
+		line-height: 97%;
+		color: rgba(51, 26, 47, 0.8);
+	}
+
+	&__block-text {}
+
+	&__image {
+		position: relative;
+		width: 620px;
+		height: 604px;
+	}
+
+	&__image-superman {
+		position: absolute;
+		object-fit: contain;
+		z-index: 2;
+		width: 560px;
+		height: 560px;
+		top: 0px;
+		left: 30px
+	}
+
+	&__image-bg-stars {
+		position: absolute;
+		object-fit: contain;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+	}
+}
+
+/* history------------------------------------*/
+
+.history {
+
+	&__container {}
+
+	&__body {}
+
+	&__title {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 85px;
+	}
+
+	&__h2 {
+		max-width: 844px;
+		text-align: center;
+		color: #331A2F;
+		font-size: 48px;
+		font-weight: 700;
+		line-height: 1.33;
+	}
+
+	&__content {
+		padding: 0px 130px 0px 114px;
+	}
+
+	&__row {}
+}
+
+
+.row-history {
+	display: flex;
+	flex-wrap: wrap;
+
+	&__item {
+		display: flex;
+		align-items: center;
+		gap: 80px;
+
+		&_column {}
+	}
+
+	&__image {
+		display: flex;
+		align-items: center;
+		flex: 0 1 auto;
+		width: 456px;
+		height: 469px;
+		position: relative;
+
+		img {
+			position: absolute;
+			left: 0;
+			right: 0;
+			object-fit: cover;
+			overflow: hidden;
+			max-width: 100%;
+		}
+	}
+
+	&__text {
+		display: flex;
+		flex: 1 1 58.32%;
+		font-size: 25px;
+		line-height: 160%;
+		flex-direction: column;
+
+		p:not(:last-child) {
+			margin-bottom: 15px;
+		}
+	}
+}
+
+/* training-----------------------------------*/
+
+.training {
+
+	&__container {}
+
+	&__top {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 85px;
+	}
+
+	&__top-content {
+		max-width: 836px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+
+		:not(:last-child) {
+			margin-bottom: 30px;
+		}
+	}
+
+	&__h2-decoration {
+		position: relative;
+		display: inline-block;
+	}
+
+	&__h2-decoration:before {
+		content: '';
+		position: absolute;
+		top: 100%;
+		left: 0;
+		height: 6px;
+		width: 100%;
+		border-radius: 5px;
+		background: linear-gradient(248deg, #7C4EAB 0%, #DD51D4 100%);
+	}
+
+	&__h2-decoration-4 {
+		color: #EA5DBB;
+	}
+
+
+	&__top-description {
+		text-align: center;
+		font-size: 25px;
+		line-height: 160%;
+	}
+
+	&__botton {}
+
+	&__body {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0px -62.5px;
+	}
+
+	&__item {
+		padding: 0px 62.5px;
+	}
+}
+
+
+
+/* mediascreen------------------------------------*/
+
+@import "mediascreen";
