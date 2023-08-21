@@ -203,7 +203,7 @@ h6 {
 }
 .header__phone {
   padding: 0px 0px 0px 39px;
-  background: url("/img/icon/phone.svg") left no-repeat;
+  background: url("../img/icon/phone.svg") left no-repeat;
 }
 .header__phone-nomber {
   font-size: 24px;
@@ -307,7 +307,7 @@ h6 {
           align-items: center;
 }
 .menu-header__arrow {
-  background: url("/img/icon/arrowmenu.svg") right no-repeat;
+  background: url("../img/icon/arrowmenu.svg") right no-repeat;
   padding: 0px 26px 0px 0px;
 }
 
@@ -701,7 +701,7 @@ h6 {
   }
   .header__phone {
     padding: 0px 0px 0px 30px;
-    background: url("./img/icon/phone.svg") left/20px 20px no-repeat;
+    background-size: 20px 20px;
   }
   .header__phone-nomber {
     font-size: 18px;
@@ -718,7 +718,7 @@ h6 {
     min-height: 44px;
   }
   .header__botton-text {
-    background: url("./img/icon/arrowbotton.svg") left/20px 20px no-repeat;
+    background-size: 20px 20px;
     padding: 0px 0px 0px 34px;
   }
   .logo__link {
@@ -741,7 +741,6 @@ h6 {
     color: #331A2F;
   }
   .menu-header__arrow {
-    background: url("./img/icon/arrowmenu.svg") right no-repeat;
     padding: 0px 25px 0px 0px;
   }
   /* breadcrumbs--------------------------------*/
@@ -1057,7 +1056,7 @@ h6 {
     min-height: 36px;
   }
   .header__botton-text {
-    background: url("/img/icon/arrowbotton.svg") left/13px 13px no-repeat;
+    background-size: 13px 13px;
     padding: 0px 0px 0px 21px;
   }
   .logo__link {
