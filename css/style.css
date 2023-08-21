@@ -245,7 +245,7 @@ h6 {
 }
 .header__botton-text {
   display: inline-block;
-  background: url("/img/icon/arrowbotton.svg") left no-repeat;
+  background: url("./img/icon/arrowbotton.svg") left no-repeat;
   padding: 0px 0px 0px 37px;
 }
 
