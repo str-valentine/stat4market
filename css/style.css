@@ -69,6 +69,7 @@ body {
   color: rgba(51, 26, 47, 0.8);
   font-size: 20px;
   background: #FAFAFA;
+  position: relative;
 }
 
 input,
@@ -645,6 +646,15 @@ h6 {
 }
 .training__item {
   padding: 0px 62.5px;
+}
+
+/* ellipse------------------------------------*/
+.ellipse-big {
+  position: absolute;
+  top: -11vw;
+  left: -35vw;
+  width: 782px;
+  height: 783px;
 }
 
 /* mediascreen------------------------------------*/
