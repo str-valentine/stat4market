@@ -648,15 +648,6 @@ h6 {
   padding: 0px 62.5px;
 }
 
-/* ellipse------------------------------------*/
-.ellipse-big {
-  position: absolute;
-  top: -11vw;
-  left: -35vw;
-  width: 782px;
-  height: 783px;
-}
-
 /* mediascreen------------------------------------*/
 @media (max-width: 1280px) {
   ._container {
